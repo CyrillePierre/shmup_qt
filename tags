@@ -1,0 +1,619 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALL	object.hpp	/^				ALL			= 0xff	\/\/			1 1 1 1  1 1 1 1$/;"	e	enum:sceneElements::Object::CollisionGroup
+ALLY	object.hpp	/^				ALLY		= 0x03,	\/\/			0 0 0 0  0 0 1 1$/;"	e	enum:sceneElements::Object::CollisionGroup
+ALLYBALL	object.hpp	/^				ALLYBALL	= 0x04,	\/\/			0 0 0 0  0 1 0 0$/;"	e	enum:sceneElements::Object::CollisionGroup
+ALLYSHIP_HPP	allyShip.hpp	3;"	d
+AR	Makefile	/^AR            = ar cqs$/;"	m
+AllyShip	allyShip.cpp	/^AllyShip::AllyShip(float x, float y, int energyMax)$/;"	f	class:AllyShip	signature:(float x, float y, int energyMax)
+AllyShip	allyShip.hpp	/^			AllyShip(float x, float y, int energyMax);$/;"	p	class:sceneElements::AllyShip	access:public	signature:(float x, float y, int energyMax)
+AllyShip	allyShip.hpp	/^	class AllyShip : public QObject, public Ship$/;"	c	namespace:sceneElements	inherits:QObject,Ship
+AllyShip::AllyShip	allyShip.cpp	/^AllyShip::AllyShip(float x, float y, int energyMax)$/;"	f	class:AllyShip	signature:(float x, float y, int energyMax)
+AllyShip::attack	allyShip.cpp	/^void AllyShip::attack()$/;"	f	class:AllyShip	signature:()
+AllyShip::boundingRect	allyShip.cpp	/^QRectF AllyShip::boundingRect() const$/;"	f	class:AllyShip	signature:() const
+AllyShip::calcDir	allyShip.cpp	/^void AllyShip::calcDir()$/;"	f	class:AllyShip	signature:()
+AllyShip::keyPressEvent	allyShip.cpp	/^void AllyShip::keyPressEvent(QKeyEvent *event)$/;"	f	class:AllyShip	signature:(QKeyEvent *event)
+AllyShip::keyReleaseEvent	allyShip.cpp	/^void AllyShip::keyReleaseEvent(QKeyEvent *event)$/;"	f	class:AllyShip	signature:(QKeyEvent *event)
+AllyShip::move	allyShip.cpp	/^void AllyShip::move()$/;"	f	class:AllyShip	signature:()
+AllyShip::paint	allyShip.cpp	/^void AllyShip::paint(QPainter *painter,$/;"	f	class:AllyShip	signature:(QPainter *painter, const QStyleOptionGraphicsItem*, QWidget*)
+AllyShip::remove	allyShip.cpp	/^void AllyShip::remove()$/;"	f	class:AllyShip	signature:()
+AllyShip::shape	allyShip.cpp	/^QPainterPath AllyShip::shape() const$/;"	f	class:AllyShip	signature:() const
+AllyShip::takeDamage	allyShip.cpp	/^void AllyShip::takeDamage(int damage)$/;"	f	class:AllyShip	signature:(int damage)
+BALL_HPP	ball.hpp	3;"	d
+Ball	ball.cpp	/^Ball::Ball() : Object(0, 0)$/;"	f	class:Ball	signature:()
+Ball	ball.cpp	/^Ball::Ball(float			x, $/;"	f	class:Ball	signature:(float x, float y, float speed, float direction, unsigned int damage)
+Ball	ball.hpp	/^			Ball();$/;"	p	class:sceneElements::Ball	access:public	signature:()
+Ball	ball.hpp	/^			Ball(float				x,$/;"	p	class:sceneElements::Ball	access:public	signature:(float x, float y, float speed, float direction, unsigned int damage)
+Ball	ball.hpp	/^	class Ball : public Object$/;"	c	namespace:sceneElements	inherits:Object
+Ball::Ball	ball.cpp	/^Ball::Ball() : Object(0, 0)$/;"	f	class:Ball	signature:()
+Ball::Ball	ball.cpp	/^Ball::Ball(float			x, $/;"	f	class:Ball	signature:(float x, float y, float speed, float direction, unsigned int damage)
+Ball::advance	ball.cpp	/^void Ball::advance(int)$/;"	f	class:Ball	signature:(int)
+Ball::boundingRect	ball.cpp	/^QRectF Ball::boundingRect() const$/;"	f	class:Ball	signature:() const
+Ball::init	ball.cpp	/^void Ball::init(float			x, $/;"	f	class:Ball	signature:(float x, float y, float speed, float direction, CollisionGroup collision, unsigned int damage)
+Ball::paint	ball.cpp	/^void Ball::paint(QPainter	*painter,$/;"	f	class:Ball	signature:(QPainter *painter, const QStyleOptionGraphicsItem*, QWidget*)
+Ball::remove	ball.cpp	/^void Ball::remove()$/;"	f	class:Ball	signature:()
+Ball::takeDamage	ball.cpp	/^void Ball::takeDamage(int)$/;"	f	class:Ball	signature:(int)
+CC	Makefile	/^CC            = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+CONSTANT	enemyShipAction.hpp	/^		CONSTANT	\/\/\/< classe : ConstantAction$/;"	e	enum:objectsControler::__anon1
+CONSTANTACTION_HPP	constantAction.hpp	3;"	d
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+CXX	Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES) -g$/;"	m
+CollisionGroup	object.hpp	/^			enum CollisionGroup$/;"	g	class:sceneElements::Object	access:public
+ConstantAction	constantAction.cpp	/^ConstantAction::ConstantAction($/;"	f	class:ConstantAction	signature:( EnemyShip* enemyShip, ESFunction function, int nbStep, float value)
+ConstantAction	constantAction.hpp	/^			ConstantAction(EnemyShip*	enemyShip,$/;"	p	class:objectsControler::ConstantAction	access:public	signature:(EnemyShip* enemyShip, ESFunction function, int nbStep, float value)
+ConstantAction	constantAction.hpp	/^	class ConstantAction : public EnemyShipAction$/;"	c	namespace:objectsControler	inherits:EnemyShipAction
+ConstantAction::ConstantAction	constantAction.cpp	/^ConstantAction::ConstantAction($/;"	f	class:ConstantAction	signature:( EnemyShip* enemyShip, ESFunction function, int nbStep, float value)
+ConstantAction::advance	constantAction.cpp	/^void ConstantAction::advance()$/;"	f	class:ConstantAction	signature:()
+ConstantAction::~ConstantAction	constantAction.cpp	/^ConstantAction::~ConstantAction()$/;"	f	class:ConstantAction	signature:()
+Coord	map.hpp	/^struct Map::Coord$/;"	s	class:Map
+DEFINES	Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = $/;"	m
+DIST	Makefile	/^DIST          = \/usr\/share\/qt4\/mkspecs\/common\/g++.conf \\$/;"	m
+ENEMY	object.hpp	/^				ENEMY		= 0x05,	\/\/			0 0 0 0  0 1 0 1$/;"	e	enum:sceneElements::Object::CollisionGroup
+ENEMYBALL	object.hpp	/^				ENEMYBALL	= 0x02,	\/\/			0 0 0 0  0 0 1 0$/;"	e	enum:sceneElements::Object::CollisionGroup
+ENEMYSHIPACTION_HPP	enemyShipAction.hpp	3;"	d
+ENEMYSHIP_HPP	enemyShip.hpp	3;"	d
+ESFunction	enemyShipAction.hpp	/^			typedef void (EnemyShip::*ESFunction)(float);$/;"	t	class:objectsControler::EnemyShipAction	access:public
+EnemyShip	enemyShip.cpp	/^EnemyShip::EnemyShip()$/;"	f	class:EnemyShip	signature:()
+EnemyShip	enemyShip.cpp	/^EnemyShip::EnemyShip(float x, float y, int energyMax)$/;"	f	class:EnemyShip	signature:(float x, float y, int energyMax)
+EnemyShip	enemyShip.hpp	/^			EnemyShip();$/;"	p	class:sceneElements::EnemyShip	access:public	signature:()
+EnemyShip	enemyShip.hpp	/^			EnemyShip(float x, float y, int energyMax);$/;"	p	class:sceneElements::EnemyShip	access:public	signature:(float x, float y, int energyMax)
+EnemyShip	enemyShip.hpp	/^	class EnemyShip : public Ship$/;"	c	namespace:sceneElements	inherits:Ship
+EnemyShip::EnemyShip	enemyShip.cpp	/^EnemyShip::EnemyShip()$/;"	f	class:EnemyShip	signature:()
+EnemyShip::EnemyShip	enemyShip.cpp	/^EnemyShip::EnemyShip(float x, float y, int energyMax)$/;"	f	class:EnemyShip	signature:(float x, float y, int energyMax)
+EnemyShip::attack	enemyShip.cpp	/^void EnemyShip::attack()$/;"	f	class:EnemyShip	signature:()
+EnemyShip::boundingRect	enemyShip.cpp	/^QRectF EnemyShip::boundingRect() const$/;"	f	class:EnemyShip	signature:() const
+EnemyShip::init	enemyShip.cpp	/^void EnemyShip::init(float x, float y, int energyMax)$/;"	f	class:EnemyShip	signature:(float x, float y, int energyMax)
+EnemyShip::move	enemyShip.cpp	/^void EnemyShip::move()$/;"	f	class:EnemyShip	signature:()
+EnemyShip::paint	enemyShip.cpp	/^void EnemyShip::paint(QPainter *painter,$/;"	f	class:EnemyShip	signature:(QPainter *painter, const QStyleOptionGraphicsItem*, QWidget*)
+EnemyShip::remove	enemyShip.cpp	/^void EnemyShip::remove()$/;"	f	class:EnemyShip	signature:()
+EnemyShip::setControlers	enemyShip.cpp	/^void EnemyShip::setControlers($/;"	f	class:EnemyShip	signature:( EnemyShipAction* speed, EnemyShipAction* direction, EnemyShipAction* attackFreq)
+EnemyShipAction	enemyShipAction.cpp	/^EnemyShipAction::EnemyShipAction($/;"	f	class:EnemyShipAction	signature:( EnemyShip* enemyShip, ESFunction function, int nbStep)
+EnemyShipAction	enemyShipAction.hpp	/^			EnemyShipAction(EnemyShip*	enemyShip,$/;"	p	class:objectsControler::EnemyShipAction	access:public	signature:(EnemyShip* enemyShip, ESFunction function, int nbStep)
+EnemyShipAction	enemyShipAction.hpp	/^	class EnemyShipAction : public QObject$/;"	c	namespace:objectsControler	inherits:QObject
+EnemyShipAction::EnemyShipAction	enemyShipAction.cpp	/^EnemyShipAction::EnemyShipAction($/;"	f	class:EnemyShipAction	signature:( EnemyShip* enemyShip, ESFunction function, int nbStep)
+FACTORY_FILE	map.hpp	12;"	d
+INCPATH	Makefile	/^INCPATH       = -I\/usr\/share\/qt4\/mkspecs\/linux-g++ -I. -I\/usr\/include\/qt4\/QtCore -I\/usr\/include\/qt4\/QtGui -I\/usr\/include\/qt4 -I. -I. -I.$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+LFLAGS	Makefile	/^LFLAGS        = -Wl,-O1$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/lib -lQtGui -lQtCore -lpthread $/;"	m
+LINEAR	enemyShipAction.hpp	/^		LINEAR,		\/\/\/< classe : LinearAction$/;"	e	enum:objectsControler::__anon1
+LINEARACTION_HPP	linearAction.hpp	3;"	d
+LINK	Makefile	/^LINK          = g++$/;"	m
+LISTACTION_HPP	listAction.hpp	3;"	d
+Level	map.hpp	/^struct Map::Level$/;"	s	class:Map
+LinearAction	linearAction.cpp	/^LinearAction::LinearAction($/;"	f	class:LinearAction	signature:( EnemyShip* enemyShip, ESFunction function, int nbStep, float first, float last)
+LinearAction	linearAction.hpp	/^			LinearAction(EnemyShip*	enemyShip,$/;"	p	class:objectsControler::LinearAction	access:public	signature:(EnemyShip* enemyShip, ESFunction function, int nbStep, float first, float last)
+LinearAction	linearAction.hpp	/^	class LinearAction : public EnemyShipAction$/;"	c	namespace:objectsControler	inherits:EnemyShipAction
+LinearAction::LinearAction	linearAction.cpp	/^LinearAction::LinearAction($/;"	f	class:LinearAction	signature:( EnemyShip* enemyShip, ESFunction function, int nbStep, float first, float last)
+LinearAction::advance	linearAction.cpp	/^void LinearAction::advance()$/;"	f	class:LinearAction	signature:()
+LinearAction::~LinearAction	linearAction.cpp	/^LinearAction::~LinearAction()$/;"	f	class:LinearAction	signature:()
+ListAction	listAction.cpp	/^ListAction::ListAction()$/;"	f	class:ListAction	signature:()
+ListAction	listAction.hpp	/^			ListAction();$/;"	p	class:objectsControler::ListAction	access:public	signature:()
+ListAction	listAction.hpp	/^	class ListAction : public EnemyShipAction$/;"	c	namespace:objectsControler	inherits:EnemyShipAction
+ListAction::ListAction	listAction.cpp	/^ListAction::ListAction()$/;"	f	class:ListAction	signature:()
+ListAction::addAction	listAction.cpp	/^void ListAction::addAction(EnemyShipAction* esa)$/;"	f	class:ListAction	signature:(EnemyShipAction* esa)
+ListAction::advance	listAction.cpp	/^void ListAction::advance()$/;"	f	class:ListAction	signature:()
+ListAction::handleEnd	listAction.cpp	/^void ListAction::handleEnd()$/;"	f	class:ListAction	signature:()
+MAP_HPP	map.hpp	3;"	d
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+MainWindow	ui_interface.h	/^    class MainWindow: public Ui_MainWindow {};$/;"	c	namespace:Ui	inherits:Ui_MainWindow
+Map	map.cpp	/^Map::Map(const string &fileName, QGraphicsScene* scene)$/;"	f	class:Map	signature:(const string &fileName, QGraphicsScene* scene)
+Map	map.hpp	/^		Map(const std::string &fileName, QGraphicsScene* scene);$/;"	p	class:Map	access:public	signature:(const std::string &fileName, QGraphicsScene* scene)
+Map	map.hpp	/^class Map$/;"	c
+Map::Coord	map.hpp	/^struct Map::Coord$/;"	s	class:Map
+Map::Coord::id	map.hpp	/^	unsigned int	id;$/;"	m	struct:Map::Coord	access:public
+Map::Coord::x	map.hpp	/^	float			x;$/;"	m	struct:Map::Coord	access:public
+Map::Coord::y	map.hpp	/^	float			y;$/;"	m	struct:Map::Coord	access:public
+Map::Level	map.hpp	/^struct Map::Level$/;"	s	class:Map
+Map::Level::coord	map.hpp	/^	std::stack<Coord*>	coord;$/;"	m	struct:Map::Level	access:public
+Map::Level::step	map.hpp	/^	unsigned int		step;$/;"	m	struct:Map::Level	access:public
+Map::Map	map.cpp	/^Map::Map(const string &fileName, QGraphicsScene* scene)$/;"	f	class:Map	signature:(const string &fileName, QGraphicsScene* scene)
+Map::Map	map.hpp	/^		Map(const std::string &fileName, QGraphicsScene* scene);$/;"	p	class:Map	access:public	signature:(const std::string &fileName, QGraphicsScene* scene)
+Map::_fileName	map.hpp	/^		std::string			_fileName;$/;"	m	class:Map	access:private
+Map::_objFactory	map.hpp	/^		ObjectFactory		_objFactory;$/;"	m	class:Map	access:private
+Map::_objects	map.hpp	/^		std::queue<Level*>	_objects;$/;"	m	class:Map	access:private
+Map::_scene	map.hpp	/^		QGraphicsScene*		_scene;$/;"	m	class:Map	access:private
+Map::advance	map.cpp	/^void Map::advance()$/;"	f	class:Map	signature:()
+Map::advance	map.hpp	/^		void advance();$/;"	p	class:Map	access:public	signature:()
+Map::loadFile	map.cpp	/^void Map::loadFile()$/;"	f	class:Map	signature:()
+Map::loadFile	map.hpp	/^		void loadFile();$/;"	p	class:Map	access:public	signature:()
+MapSS	objectFactory.hpp	/^		typedef std::map<unsigned int, std::stringstream*> MapSS;$/;"	t	class:ObjectFactory	access:public
+NB_FRAMES	simulateur.hpp	17;"	d
+NB_OBJ_INCR	pool.hpp	13;"	d
+NB_OBJ_MINI	pool.hpp	10;"	d
+NEUTRAL	object.hpp	/^				NEUTRAL		= 0x07,	\/\/			0 0 0 0  0 1 1 1$/;"	e	enum:sceneElements::Object::CollisionGroup
+OBJECTFACTORY_HPP	objectFactory.hpp	3;"	d
+OBJECTS	Makefile	/^OBJECTS       = allyShip.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+OBJECT_HPP	object.hpp	3;"	d
+Object	object.cpp	/^Object::Object(float			x,$/;"	f	class:Object	signature:(float x, float y, int damage, CollisionGroup collision)
+Object	object.hpp	/^			Object(float			x,$/;"	p	class:sceneElements::Object	access:protected	signature:(float x, float y, int damage = 0, CollisionGroup collision = SCENERY)
+Object	object.hpp	/^	class Object : public QGraphicsItem$/;"	c	namespace:sceneElements	inherits:QGraphicsItem
+Object::Object	object.cpp	/^Object::Object(float			x,$/;"	f	class:Object	signature:(float x, float y, int damage, CollisionGroup collision)
+Object::collision	object.cpp	/^Object::CollisionGroup Object::collision() const$/;"	f	class:Object	signature:() const
+Object::collisionManager	object.cpp	/^void Object::collisionManager()$/;"	f	class:Object	signature:()
+Object::damage	object.cpp	/^unsigned int Object::damage() const$/;"	f	class:Object	signature:() const
+Object::setDirection	object.cpp	/^void Object::setDirection(float direction)$/;"	f	class:Object	signature:(float direction)
+Object::setSpeed	object.cpp	/^void Object::setSpeed(float speed)$/;"	f	class:Object	signature:(float speed)
+Object::takeDamage	object.cpp	/^void Object::takeDamage(int)$/;"	f	class:Object	signature:(int)
+ObjectFactory	objectFactory.cpp	/^ObjectFactory::ObjectFactory(const char *fileName, QGraphicsScene *scene)$/;"	f	class:ObjectFactory	signature:(const char *fileName, QGraphicsScene *scene)
+ObjectFactory	objectFactory.hpp	/^		ObjectFactory(const char *fileName, QGraphicsScene *scene);$/;"	p	class:ObjectFactory	access:public	signature:(const char *fileName, QGraphicsScene *scene)
+ObjectFactory	objectFactory.hpp	/^class ObjectFactory$/;"	c
+ObjectFactory::MapSS	objectFactory.hpp	/^		typedef std::map<unsigned int, std::stringstream*> MapSS;$/;"	t	class:ObjectFactory	access:public
+ObjectFactory::ObjectFactory	objectFactory.cpp	/^ObjectFactory::ObjectFactory(const char *fileName, QGraphicsScene *scene)$/;"	f	class:ObjectFactory	signature:(const char *fileName, QGraphicsScene *scene)
+ObjectFactory::ObjectFactory	objectFactory.hpp	/^		ObjectFactory(const char *fileName, QGraphicsScene *scene);$/;"	p	class:ObjectFactory	access:public	signature:(const char *fileName, QGraphicsScene *scene)
+ObjectFactory::_defObjets	objectFactory.hpp	/^		MapSS			_defObjets;$/;"	m	class:ObjectFactory	access:private
+ObjectFactory::_scene	objectFactory.hpp	/^		QGraphicsScene*	_scene;$/;"	m	class:ObjectFactory	access:private
+ObjectFactory::create	objectFactory.cpp	/^Object *ObjectFactory::create(unsigned int id, float x, float y)$/;"	f	class:ObjectFactory	signature:(unsigned int id, float x, float y)
+ObjectFactory::create	objectFactory.hpp	/^		sceneElements::Object *create(unsigned int	id,$/;"	p	class:ObjectFactory	access:public	signature:(unsigned int id, float x, float y)
+ObjectFactory::createEnemyShip	objectFactory.cpp	/^EnemyShip *ObjectFactory::createEnemyShip($/;"	f	class:ObjectFactory	signature:( stringstream* ss, float x, float y)
+ObjectFactory::createEnemyShip	objectFactory.hpp	/^		sceneElements::EnemyShip *createEnemyShip($/;"	p	class:ObjectFactory	access:private	signature:( std::stringstream *tmpSS, float x, float y)
+ObjectFactory::createEnemyShipAction	objectFactory.cpp	/^oc::EnemyShipAction *ObjectFactory::createEnemyShipAction($/;"	f	class:ObjectFactory	signature:( stringstream* ss, EnemyShip* enemyShip, oc::EnemyShipAction::ESFunction function)
+ObjectFactory::createEnemyShipAction	objectFactory.hpp	/^		objectsControler::EnemyShipAction *createEnemyShipAction($/;"	p	class:ObjectFactory	access:private	signature:( std::stringstream *ss, sceneElements::EnemyShip* enemyShip, objectsControler::EnemyShipAction::ESFunction function)
+POOL_HPP	pool.hpp	3;"	d
+Pool	pool.hpp	/^		Pool(unsigned int		nbObjects	= NB_OBJ_MINI,$/;"	p	class:Pool	access:public	signature:(unsigned int nbObjects = NB_OBJ_MINI, unsigned int nbIncr = NB_OBJ_INCR)
+Pool	pool.hpp	/^class Pool : public Singleton< Pool<Obj> >$/;"	c	inherits:Singleton
+Pool::Pool	pool.hpp	/^		Pool(unsigned int		nbObjects	= NB_OBJ_MINI,$/;"	p	class:Pool	access:public	signature:(unsigned int nbObjects = NB_OBJ_MINI, unsigned int nbIncr = NB_OBJ_INCR)
+Pool::_nbIncr	pool.hpp	/^		unsigned int		_nbIncr;$/;"	m	class:Pool	access:private
+Pool::_objects	pool.hpp	/^		std::stack<Obj*>	_objects;$/;"	m	class:Pool	access:private
+Pool::addObjects	pool.hpp	/^		void addObjects(unsigned int nb);$/;"	p	class:Pool	access:private	signature:(unsigned int nb)
+Pool::create	pool.hpp	/^		Obj* create();$/;"	p	class:Pool	access:public	signature:()
+Pool::remove	pool.hpp	/^		void remove(Obj *object);$/;"	p	class:Pool	access:public	signature:(Obj *object)
+Pool::~Pool	pool.hpp	/^		~Pool();$/;"	p	class:Pool	access:public	signature:()
+QMAKE	Makefile	/^QMAKE         = \/usr\/bin\/qmake$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = jeu$/;"	m
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+SCENERY	object.hpp	/^				SCENERY		= 0x00,	\/\/			0 0 0 0  0 0 0 0$/;"	e	enum:sceneElements::Object::CollisionGroup
+SCENE_X_MAX	simulateur.hpp	22;"	d
+SCENE_Y_MAX	simulateur.hpp	23;"	d
+SED	Makefile	/^SED           = sed$/;"	m
+SHIP_HPP	ship.hpp	3;"	d
+SIMULATEUR_HPP	simulateur.hpp	3;"	d
+SINGLETON_HPP	singleton.hpp	3;"	d
+SOURCES	Makefile	/^SOURCES       = allyShip.cpp \\$/;"	m
+STRIP	Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
+Ship	ship.cpp	/^Ship::Ship(float			x,$/;"	f	class:Ship	signature:(float x, float y, int energyMax, CollisionGroup colGrp)
+Ship	ship.hpp	/^			Ship(float			x, $/;"	p	class:sceneElements::Ship	access:protected	signature:(float x, float y, int energyMax, CollisionGroup colGrp)
+Ship	ship.hpp	/^	class Ship : public Object$/;"	c	namespace:sceneElements	inherits:Object
+Ship::Ship	ship.cpp	/^Ship::Ship(float			x,$/;"	f	class:Ship	signature:(float x, float y, int energyMax, CollisionGroup colGrp)
+Ship::advance	ship.cpp	/^void Ship::advance(int)$/;"	f	class:Ship	signature:(int)
+Ship::energy	ship.cpp	/^unsigned int Ship::energy() const$/;"	f	class:Ship	signature:() const
+Ship::init	ship.cpp	/^void Ship::init(float x, float y, int energyMax)$/;"	f	class:Ship	signature:(float x, float y, int energyMax)
+Ship::setAttackFreq	ship.cpp	/^void Ship::setAttackFreq(float value)$/;"	f	class:Ship	signature:(float value)
+Ship::takeDamage	ship.cpp	/^void Ship::takeDamage(int damage)$/;"	f	class:Ship	signature:(int damage)
+Simulateur	simulateur.cpp	/^Simulateur::Simulateur()$/;"	f	class:Simulateur	signature:()
+Simulateur	simulateur.hpp	/^			Simulateur();$/;"	p	class:sceneElements::Simulateur	access:private	signature:()
+Simulateur	simulateur.hpp	/^	class Simulateur : public QObject, public Singleton<Simulateur>$/;"	c	namespace:sceneElements	inherits:QObject,Singleton
+Simulateur::Simulateur	simulateur.cpp	/^Simulateur::Simulateur()$/;"	f	class:Simulateur	signature:()
+Simulateur::init	simulateur.cpp	/^void Simulateur::init(int argc, char **argv)$/;"	f	class:Simulateur	signature:(int argc, char **argv)
+Simulateur::levelCompleted	simulateur.cpp	/^void Simulateur::levelCompleted()$/;"	f	class:Simulateur	signature:()
+Simulateur::lifeBar	simulateur.cpp	/^QProgressBar *Simulateur::lifeBar()$/;"	f	class:Simulateur	signature:()
+Simulateur::scene	simulateur.cpp	/^QGraphicsScene *Simulateur::scene()$/;"	f	class:Simulateur	signature:()
+Simulateur::start	simulateur.cpp	/^int Simulateur::start()$/;"	f	class:Simulateur	signature:()
+Simulateur::step	simulateur.cpp	/^void Simulateur::step()$/;"	f	class:Simulateur	signature:()
+Simulateur::stop	simulateur.cpp	/^void Simulateur::stop()$/;"	f	class:Simulateur	signature:()
+Simulateur::~Simulateur	simulateur.cpp	/^Simulateur::~Simulateur()$/;"	f	class:Simulateur	signature:()
+Singleton	singleton.hpp	/^class Singleton$/;"	c
+Singleton::get	singleton.hpp	/^		static T *get()$/;"	f	class:Singleton	access:public	signature:()
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = jeu$/;"	m
+TMP_FRAME	simulateur.hpp	20;"	d
+UI_INTERFACE_H	ui_interface.h	11;"	d
+Ui	ui_interface.h	/^namespace Ui {$/;"	n
+Ui::MainWindow	ui_interface.h	/^    class MainWindow: public Ui_MainWindow {};$/;"	c	namespace:Ui	inherits:Ui_MainWindow
+Ui_MainWindow	ui_interface.h	/^class Ui_MainWindow$/;"	c
+Ui_MainWindow::centralwidget	ui_interface.h	/^    QWidget *centralwidget;$/;"	m	class:Ui_MainWindow	access:public
+Ui_MainWindow::comboBox	ui_interface.h	/^    QComboBox *comboBox;$/;"	m	class:Ui_MainWindow	access:public
+Ui_MainWindow::frame	ui_interface.h	/^    QFrame *frame;$/;"	m	class:Ui_MainWindow	access:public
+Ui_MainWindow::graphicsView	ui_interface.h	/^    QGraphicsView *graphicsView;$/;"	m	class:Ui_MainWindow	access:public
+Ui_MainWindow::gridLayout	ui_interface.h	/^    QGridLayout *gridLayout;$/;"	m	class:Ui_MainWindow	access:public
+Ui_MainWindow::menubar	ui_interface.h	/^    QMenuBar *menubar;$/;"	m	class:Ui_MainWindow	access:public
+Ui_MainWindow::playButton	ui_interface.h	/^    QPushButton *playButton;$/;"	m	class:Ui_MainWindow	access:public
+Ui_MainWindow::quitButton	ui_interface.h	/^    QPushButton *quitButton;$/;"	m	class:Ui_MainWindow	access:public
+Ui_MainWindow::retranslateUi	ui_interface.h	/^    void retranslateUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow	access:public	signature:(QMainWindow *MainWindow)
+Ui_MainWindow::setupUi	ui_interface.h	/^    void setupUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow	access:public	signature:(QMainWindow *MainWindow)
+Ui_MainWindow::statusbar	ui_interface.h	/^    QStatusBar *statusbar;$/;"	m	class:Ui_MainWindow	access:public
+Ui_MainWindow::verticalLayout	ui_interface.h	/^    QVBoxLayout *verticalLayout;$/;"	m	class:Ui_MainWindow	access:public
+Ui_MainWindow::verticalSpacer	ui_interface.h	/^    QSpacerItem *verticalSpacer;$/;"	m	class:Ui_MainWindow	access:public
+VIEW_X_MAX	simulateur.hpp	24;"	d
+VIEW_Y_MAX	simulateur.hpp	25;"	d
+_actions	listAction.hpp	/^			std::list<EnemyShipAction*>	_actions;$/;"	m	class:objectsControler::ListAction	access:private
+_app	simulateur.hpp	/^			QApplication*				_app;$/;"	m	class:sceneElements::Simulateur	access:private
+_attack	allyShip.hpp	/^			bool	_attack;$/;"	m	class:sceneElements::AllyShip	access:protected
+_attackFreq	ship.hpp	/^			unsigned int	_attackFreq;$/;"	m	class:sceneElements::Ship	access:protected
+_attackFreqControler	enemyShip.hpp	/^			EnemyShipAction*	_attackFreqControler;$/;"	m	class:sceneElements::EnemyShip	access:protected
+_attackStep	ship.hpp	/^			unsigned int	_attackStep;$/;"	m	class:sceneElements::Ship	access:protected
+_collision	object.hpp	/^			CollisionGroup	_collision;$/;"	m	class:sceneElements::Object	access:protected
+_damage	object.hpp	/^			int				_damage;$/;"	m	class:sceneElements::Object	access:protected
+_defObjets	objectFactory.hpp	/^		MapSS			_defObjets;$/;"	m	class:ObjectFactory	access:private
+_direction	object.hpp	/^			float			_direction;$/;"	m	class:sceneElements::Object	access:protected
+_directionControler	enemyShip.hpp	/^			EnemyShipAction*	_directionControler;$/;"	m	class:sceneElements::EnemyShip	access:protected
+_dx	ball.hpp	/^			float	_dx;$/;"	m	class:sceneElements::Ball	access:protected
+_dxN	allyShip.hpp	/^			signed char _dxN;$/;"	m	class:sceneElements::AllyShip	access:protected
+_dxP	allyShip.hpp	/^			signed char _dxP;$/;"	m	class:sceneElements::AllyShip	access:protected
+_dy	ball.hpp	/^			float	_dy;$/;"	m	class:sceneElements::Ball	access:protected
+_dyN	allyShip.hpp	/^			signed char _dyN;$/;"	m	class:sceneElements::AllyShip	access:protected
+_dyP	allyShip.hpp	/^			signed char _dyP;$/;"	m	class:sceneElements::AllyShip	access:protected
+_enemyShip	enemyShipAction.hpp	/^			EnemyShip*		_enemyShip;$/;"	m	class:objectsControler::EnemyShipAction	access:protected
+_energy	ship.hpp	/^			int				_energy;$/;"	m	class:sceneElements::Ship	access:protected
+_energyMax	ship.hpp	/^			int				_energyMax;$/;"	m	class:sceneElements::Ship	access:protected
+_fileName	map.hpp	/^		std::string			_fileName;$/;"	m	class:Map	access:private
+_finished	enemyShipAction.hpp	/^			bool			_finished;$/;"	m	class:objectsControler::EnemyShipAction	access:protected
+_function	enemyShipAction.hpp	/^			ESFunction		_function;$/;"	m	class:objectsControler::EnemyShipAction	access:protected
+_grid	simulateur.hpp	/^			QGridLayout*				_grid;$/;"	m	class:sceneElements::Simulateur	access:private
+_increment	linearAction.hpp	/^			float	_increment;$/;"	m	class:objectsControler::LinearAction	access:private
+_map	simulateur.hpp	/^			Map*						_map;$/;"	m	class:sceneElements::Simulateur	access:private
+_move	allyShip.hpp	/^			bool	_move;$/;"	m	class:sceneElements::AllyShip	access:protected
+_nbIncr	pool.hpp	/^		unsigned int		_nbIncr;$/;"	m	class:Pool	access:private
+_nbStep	enemyShipAction.hpp	/^			unsigned int	_nbStep;$/;"	m	class:objectsControler::EnemyShipAction	access:protected
+_nbStepMax	enemyShipAction.hpp	/^			unsigned int	_nbStepMax;$/;"	m	class:objectsControler::EnemyShipAction	access:protected
+_objFactory	map.hpp	/^		ObjectFactory		_objFactory;$/;"	m	class:Map	access:private
+_objects	map.hpp	/^		std::queue<Level*>	_objects;$/;"	m	class:Map	access:private
+_objects	pool.hpp	/^		std::stack<Obj*>	_objects;$/;"	m	class:Pool	access:private
+_pBar	simulateur.hpp	/^			QProgressBar*				_pBar;$/;"	m	class:sceneElements::Simulateur	access:private
+_remove	ball.hpp	/^			bool	_remove;$/;"	m	class:sceneElements::Ball	access:protected
+_scene	map.hpp	/^		QGraphicsScene*		_scene;$/;"	m	class:Map	access:private
+_scene	objectFactory.hpp	/^		QGraphicsScene*	_scene;$/;"	m	class:ObjectFactory	access:private
+_scene	simulateur.hpp	/^			QGraphicsScene*				_scene;$/;"	m	class:sceneElements::Simulateur	access:private
+_speed	object.hpp	/^			float			_speed;$/;"	m	class:sceneElements::Object	access:protected
+_speedControler	enemyShip.hpp	/^			EnemyShipAction*	_speedControler;$/;"	m	class:sceneElements::EnemyShip	access:protected
+_text	simulateur.hpp	/^			QGraphicsSimpleTextItem*	_text;$/;"	m	class:sceneElements::Simulateur	access:private
+_timer	simulateur.hpp	/^			QTimer*						_timer;$/;"	m	class:sceneElements::Simulateur	access:private
+_value	constantAction.hpp	/^			float	_value;$/;"	m	class:objectsControler::ConstantAction	access:private
+_value	linearAction.hpp	/^			float	_value;$/;"	m	class:objectsControler::LinearAction	access:private
+_view	simulateur.hpp	/^			QGraphicsView*				_view;$/;"	m	class:sceneElements::Simulateur	access:private
+_widget	simulateur.hpp	/^			QWidget*					_widget;$/;"	m	class:sceneElements::Simulateur	access:private
+addAction	listAction.cpp	/^void ListAction::addAction(EnemyShipAction* esa)$/;"	f	class:ListAction	signature:(EnemyShipAction* esa)
+addAction	listAction.hpp	/^			void addAction(EnemyShipAction* esa);$/;"	p	class:objectsControler::ListAction	access:public	signature:(EnemyShipAction* esa)
+addObjects	pool.hpp	/^		void addObjects(unsigned int nb);$/;"	p	class:Pool	access:private	signature:(unsigned int nb)
+advance	ball.cpp	/^void Ball::advance(int)$/;"	f	class:Ball	signature:(int)
+advance	ball.hpp	/^			virtual void advance(int);$/;"	p	class:sceneElements::Ball	access:public	signature:(int)
+advance	constantAction.cpp	/^void ConstantAction::advance()$/;"	f	class:ConstantAction	signature:()
+advance	constantAction.hpp	/^			void advance();$/;"	p	class:objectsControler::ConstantAction	access:public	signature:()
+advance	enemyShipAction.hpp	/^			virtual void advance() = 0;$/;"	p	class:objectsControler::EnemyShipAction	access:public	signature:()
+advance	linearAction.cpp	/^void LinearAction::advance()$/;"	f	class:LinearAction	signature:()
+advance	linearAction.hpp	/^			void advance();$/;"	p	class:objectsControler::LinearAction	access:public	signature:()
+advance	listAction.cpp	/^void ListAction::advance()$/;"	f	class:ListAction	signature:()
+advance	listAction.hpp	/^			void advance();$/;"	p	class:objectsControler::ListAction	access:public	signature:()
+advance	map.cpp	/^void Map::advance()$/;"	f	class:Map	signature:()
+advance	map.hpp	/^		void advance();$/;"	p	class:Map	access:public	signature:()
+advance	object.hpp	/^			virtual void advance(int) = 0;$/;"	p	class:sceneElements::Object	access:protected	signature:(int)
+advance	ship.cpp	/^void Ship::advance(int)$/;"	f	class:Ship	signature:(int)
+advance	ship.hpp	/^			virtual void advance(int);$/;"	p	class:sceneElements::Ship	access:public	signature:(int)
+attack	allyShip.cpp	/^void AllyShip::attack()$/;"	f	class:AllyShip	signature:()
+attack	allyShip.hpp	/^			virtual void attack();$/;"	p	class:sceneElements::AllyShip	access:protected	signature:()
+attack	enemyShip.cpp	/^void EnemyShip::attack()$/;"	f	class:EnemyShip	signature:()
+attack	enemyShip.hpp	/^			virtual void attack();$/;"	p	class:sceneElements::EnemyShip	access:protected	signature:()
+attack	ship.hpp	/^			virtual void attack() = 0;$/;"	p	class:sceneElements::Ship	access:protected	signature:()
+boundingRect	allyShip.cpp	/^QRectF AllyShip::boundingRect() const$/;"	f	class:AllyShip	signature:() const
+boundingRect	allyShip.hpp	/^			QRectF boundingRect() const;$/;"	p	class:sceneElements::AllyShip	access:public	signature:() const
+boundingRect	ball.cpp	/^QRectF Ball::boundingRect() const$/;"	f	class:Ball	signature:() const
+boundingRect	ball.hpp	/^			QRectF boundingRect() const;$/;"	p	class:sceneElements::Ball	access:public	signature:() const
+boundingRect	enemyShip.cpp	/^QRectF EnemyShip::boundingRect() const$/;"	f	class:EnemyShip	signature:() const
+boundingRect	enemyShip.hpp	/^			virtual QRectF boundingRect() const;$/;"	p	class:sceneElements::EnemyShip	access:public	signature:() const
+calcDir	allyShip.cpp	/^void AllyShip::calcDir()$/;"	f	class:AllyShip	signature:()
+calcDir	allyShip.hpp	/^			void calcDir();$/;"	p	class:sceneElements::AllyShip	access:private	signature:()
+centralwidget	ui_interface.h	/^    QWidget *centralwidget;$/;"	m	class:Ui_MainWindow	access:public
+collision	object.cpp	/^Object::CollisionGroup Object::collision() const$/;"	f	class:Object	signature:() const
+collision	object.hpp	/^			CollisionGroup collision() const;$/;"	p	class:sceneElements::Object	access:public	signature:() const
+collisionManager	object.cpp	/^void Object::collisionManager()$/;"	f	class:Object	signature:()
+collisionManager	object.hpp	/^			void collisionManager();$/;"	p	class:sceneElements::Object	access:protected	signature:()
+comboBox	ui_interface.h	/^    QComboBox *comboBox;$/;"	m	class:Ui_MainWindow	access:public
+coord	map.hpp	/^	std::stack<Coord*>	coord;$/;"	m	struct:Map::Level	access:public
+create	objectFactory.cpp	/^Object *ObjectFactory::create(unsigned int id, float x, float y)$/;"	f	class:ObjectFactory	signature:(unsigned int id, float x, float y)
+create	objectFactory.hpp	/^		sceneElements::Object *create(unsigned int	id,$/;"	p	class:ObjectFactory	access:public	signature:(unsigned int id, float x, float y)
+create	pool.hpp	/^		Obj* create();$/;"	p	class:Pool	access:public	signature:()
+createEnemyShip	objectFactory.cpp	/^EnemyShip *ObjectFactory::createEnemyShip($/;"	f	class:ObjectFactory	signature:( stringstream* ss, float x, float y)
+createEnemyShip	objectFactory.hpp	/^		sceneElements::EnemyShip *createEnemyShip($/;"	p	class:ObjectFactory	access:private	signature:( std::stringstream *tmpSS, float x, float y)
+createEnemyShipAction	objectFactory.cpp	/^oc::EnemyShipAction *ObjectFactory::createEnemyShipAction($/;"	f	class:ObjectFactory	signature:( stringstream* ss, EnemyShip* enemyShip, oc::EnemyShipAction::ESFunction function)
+createEnemyShipAction	objectFactory.hpp	/^		objectsControler::EnemyShipAction *createEnemyShipAction($/;"	p	class:ObjectFactory	access:private	signature:( std::stringstream *ss, sceneElements::EnemyShip* enemyShip, objectsControler::EnemyShipAction::ESFunction function)
+damage	object.cpp	/^unsigned int Object::damage() const$/;"	f	class:Object	signature:() const
+damage	object.hpp	/^			unsigned int damage() const;$/;"	p	class:sceneElements::Object	access:public	signature:() const
+destroyed	allyShip.hpp	/^			void destroyed();$/;"	p	class:sceneElements::AllyShip	access:private	signature:()
+destroyed	moc_allyShip.cpp	/^void sceneElements::AllyShip::destroyed()$/;"	f	class:sceneElements::AllyShip	signature:()
+energy	ship.cpp	/^unsigned int Ship::energy() const$/;"	f	class:Ship	signature:() const
+energy	ship.hpp	/^			unsigned int energy() const;$/;"	p	class:sceneElements::Ship	access:public	signature:() const
+energyChanged	allyShip.hpp	/^			void energyChanged(int);$/;"	p	class:sceneElements::AllyShip	access:private	signature:(int)
+energyChanged	moc_allyShip.cpp	/^void sceneElements::AllyShip::energyChanged(int _t1)$/;"	f	class:sceneElements::AllyShip	signature:(int _t1)
+frame	ui_interface.h	/^    QFrame *frame;$/;"	m	class:Ui_MainWindow	access:public
+gameOver	simulateur.hpp	/^			void gameOver();$/;"	p	class:sceneElements::Simulateur	access:public	signature:()
+get	singleton.hpp	/^		static T *get()$/;"	f	class:Singleton	access:public	signature:()
+getStaticMetaObject	moc_allyShip.cpp	/^const QMetaObject &sceneElements::AllyShip::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:sceneElements::AllyShip	signature:()
+getStaticMetaObject	moc_enemyShipAction.cpp	/^const QMetaObject &objectsControler::EnemyShipAction::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:objectsControler::EnemyShipAction	signature:()
+getStaticMetaObject	moc_listAction.cpp	/^const QMetaObject &objectsControler::ListAction::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:objectsControler::ListAction	signature:()
+getStaticMetaObject	moc_simulateur.cpp	/^const QMetaObject &sceneElements::Simulateur::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:sceneElements::Simulateur	signature:()
+graphicsView	ui_interface.h	/^    QGraphicsView *graphicsView;$/;"	m	class:Ui_MainWindow	access:public
+gridLayout	ui_interface.h	/^    QGridLayout *gridLayout;$/;"	m	class:Ui_MainWindow	access:public
+handleEnd	listAction.cpp	/^void ListAction::handleEnd()$/;"	f	class:ListAction	signature:()
+handleEnd	listAction.hpp	/^			void handleEnd();$/;"	p	class:objectsControler::ListAction	access:public	signature:()
+id	map.hpp	/^	unsigned int	id;$/;"	m	struct:Map::Coord	access:public
+init	ball.cpp	/^void Ball::init(float			x, $/;"	f	class:Ball	signature:(float x, float y, float speed, float direction, CollisionGroup collision, unsigned int damage)
+init	ball.hpp	/^			void init(float				x, $/;"	p	class:sceneElements::Ball	access:public	signature:(float x, float y, float speed, float direction, CollisionGroup collision, unsigned int damage)
+init	enemyShip.cpp	/^void EnemyShip::init(float x, float y, int energyMax)$/;"	f	class:EnemyShip	signature:(float x, float y, int energyMax)
+init	enemyShip.hpp	/^			void init(float x, float y, int energyMax);$/;"	p	class:sceneElements::EnemyShip	access:public	signature:(float x, float y, int energyMax)
+init	ship.cpp	/^void Ship::init(float x, float y, int energyMax)$/;"	f	class:Ship	signature:(float x, float y, int energyMax)
+init	ship.hpp	/^			void init(float x, float y, int energyMax);$/;"	p	class:sceneElements::Ship	access:protected	signature:(float x, float y, int energyMax)
+init	simulateur.cpp	/^void Simulateur::init(int argc, char **argv)$/;"	f	class:Simulateur	signature:(int argc, char **argv)
+init	simulateur.hpp	/^			void init(int argc, char **argv);$/;"	p	class:sceneElements::Simulateur	access:public	signature:(int argc, char **argv)
+keyPressEvent	allyShip.cpp	/^void AllyShip::keyPressEvent(QKeyEvent *event)$/;"	f	class:AllyShip	signature:(QKeyEvent *event)
+keyPressEvent	allyShip.hpp	/^			void keyPressEvent(QKeyEvent *event);$/;"	p	class:sceneElements::AllyShip	access:protected	signature:(QKeyEvent *event)
+keyReleaseEvent	allyShip.cpp	/^void AllyShip::keyReleaseEvent(QKeyEvent *event)$/;"	f	class:AllyShip	signature:(QKeyEvent *event)
+keyReleaseEvent	allyShip.hpp	/^			void keyReleaseEvent(QKeyEvent *event);$/;"	p	class:sceneElements::AllyShip	access:protected	signature:(QKeyEvent *event)
+levelCompleted	simulateur.cpp	/^void Simulateur::levelCompleted()$/;"	f	class:Simulateur	signature:()
+levelCompleted	simulateur.hpp	/^			void levelCompleted();$/;"	p	class:sceneElements::Simulateur	access:public	signature:()
+lifeBar	simulateur.cpp	/^QProgressBar *Simulateur::lifeBar()$/;"	f	class:Simulateur	signature:()
+lifeBar	simulateur.hpp	/^			QProgressBar *lifeBar();$/;"	p	class:sceneElements::Simulateur	access:public	signature:()
+loadFile	map.cpp	/^void Map::loadFile()$/;"	f	class:Map	signature:()
+loadFile	map.hpp	/^		void loadFile();$/;"	p	class:Map	access:public	signature:()
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+menubar	ui_interface.h	/^    QMenuBar *menubar;$/;"	m	class:Ui_MainWindow	access:public
+metaObject	moc_allyShip.cpp	/^const QMetaObject *sceneElements::AllyShip::metaObject() const$/;"	f	class:sceneElements::AllyShip	signature:() const
+metaObject	moc_enemyShipAction.cpp	/^const QMetaObject *objectsControler::EnemyShipAction::metaObject() const$/;"	f	class:objectsControler::EnemyShipAction	signature:() const
+metaObject	moc_listAction.cpp	/^const QMetaObject *objectsControler::ListAction::metaObject() const$/;"	f	class:objectsControler::ListAction	signature:() const
+metaObject	moc_simulateur.cpp	/^const QMetaObject *sceneElements::Simulateur::metaObject() const$/;"	f	class:sceneElements::Simulateur	signature:() const
+move	allyShip.cpp	/^void AllyShip::move()$/;"	f	class:AllyShip	signature:()
+move	allyShip.hpp	/^			virtual void move();$/;"	p	class:sceneElements::AllyShip	access:protected	signature:()
+move	enemyShip.cpp	/^void EnemyShip::move()$/;"	f	class:EnemyShip	signature:()
+move	enemyShip.hpp	/^			virtual void move();$/;"	p	class:sceneElements::EnemyShip	access:protected	signature:()
+move	ship.hpp	/^			virtual void move() = 0;$/;"	p	class:sceneElements::Ship	access:protected	signature:()
+objectsControler	constantAction.hpp	/^namespace objectsControler$/;"	n
+objectsControler	enemyShip.hpp	/^namespace objectsControler$/;"	n
+objectsControler	enemyShipAction.hpp	/^namespace objectsControler$/;"	n
+objectsControler	linearAction.hpp	/^namespace objectsControler$/;"	n
+objectsControler	listAction.hpp	/^namespace objectsControler$/;"	n
+objectsControler::CONSTANT	enemyShipAction.hpp	/^		CONSTANT	\/\/\/< classe : ConstantAction$/;"	e	enum:objectsControler::__anon1
+objectsControler::ConstantAction	constantAction.hpp	/^	class ConstantAction : public EnemyShipAction$/;"	c	namespace:objectsControler	inherits:EnemyShipAction
+objectsControler::ConstantAction::ConstantAction	constantAction.hpp	/^			ConstantAction(EnemyShip*	enemyShip,$/;"	p	class:objectsControler::ConstantAction	access:public	signature:(EnemyShip* enemyShip, ESFunction function, int nbStep, float value)
+objectsControler::ConstantAction::_value	constantAction.hpp	/^			float	_value;$/;"	m	class:objectsControler::ConstantAction	access:private
+objectsControler::ConstantAction::advance	constantAction.hpp	/^			void advance();$/;"	p	class:objectsControler::ConstantAction	access:public	signature:()
+objectsControler::ConstantAction::~ConstantAction	constantAction.hpp	/^			~ConstantAction();$/;"	p	class:objectsControler::ConstantAction	access:public	signature:()
+objectsControler::EnemyShipAction	enemyShipAction.hpp	/^	class EnemyShipAction : public QObject$/;"	c	namespace:objectsControler	inherits:QObject
+objectsControler::EnemyShipAction::ESFunction	enemyShipAction.hpp	/^			typedef void (EnemyShip::*ESFunction)(float);$/;"	t	class:objectsControler::EnemyShipAction	access:public
+objectsControler::EnemyShipAction::EnemyShipAction	enemyShipAction.hpp	/^			EnemyShipAction(EnemyShip*	enemyShip,$/;"	p	class:objectsControler::EnemyShipAction	access:public	signature:(EnemyShip* enemyShip, ESFunction function, int nbStep)
+objectsControler::EnemyShipAction::_enemyShip	enemyShipAction.hpp	/^			EnemyShip*		_enemyShip;$/;"	m	class:objectsControler::EnemyShipAction	access:protected
+objectsControler::EnemyShipAction::_finished	enemyShipAction.hpp	/^			bool			_finished;$/;"	m	class:objectsControler::EnemyShipAction	access:protected
+objectsControler::EnemyShipAction::_function	enemyShipAction.hpp	/^			ESFunction		_function;$/;"	m	class:objectsControler::EnemyShipAction	access:protected
+objectsControler::EnemyShipAction::_nbStep	enemyShipAction.hpp	/^			unsigned int	_nbStep;$/;"	m	class:objectsControler::EnemyShipAction	access:protected
+objectsControler::EnemyShipAction::_nbStepMax	enemyShipAction.hpp	/^			unsigned int	_nbStepMax;$/;"	m	class:objectsControler::EnemyShipAction	access:protected
+objectsControler::EnemyShipAction::advance	enemyShipAction.hpp	/^			virtual void advance() = 0;$/;"	p	class:objectsControler::EnemyShipAction	access:public	signature:()
+objectsControler::EnemyShipAction::getStaticMetaObject	moc_enemyShipAction.cpp	/^const QMetaObject &objectsControler::EnemyShipAction::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:objectsControler::EnemyShipAction	signature:()
+objectsControler::EnemyShipAction::metaObject	moc_enemyShipAction.cpp	/^const QMetaObject *objectsControler::EnemyShipAction::metaObject() const$/;"	f	class:objectsControler::EnemyShipAction	signature:() const
+objectsControler::EnemyShipAction::onActionFinished	enemyShipAction.hpp	/^			void onActionFinished();$/;"	p	class:objectsControler::EnemyShipAction	access:public	signature:()
+objectsControler::EnemyShipAction::onActionFinished	moc_enemyShipAction.cpp	/^void objectsControler::EnemyShipAction::onActionFinished()$/;"	f	class:objectsControler::EnemyShipAction	signature:()
+objectsControler::EnemyShipAction::qt_metacall	moc_enemyShipAction.cpp	/^int objectsControler::EnemyShipAction::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:objectsControler::EnemyShipAction	signature:(QMetaObject::Call _c, int _id, void **_a)
+objectsControler::EnemyShipAction::qt_metacast	moc_enemyShipAction.cpp	/^void *objectsControler::EnemyShipAction::qt_metacast(const char *_clname)$/;"	f	class:objectsControler::EnemyShipAction	signature:(const char *_clname)
+objectsControler::EnemyShipAction::staticMetaObject	moc_enemyShipAction.cpp	/^const QMetaObject objectsControler::EnemyShipAction::staticMetaObject = {$/;"	m	class:objectsControler::EnemyShipAction	file:
+objectsControler::LINEAR	enemyShipAction.hpp	/^		LINEAR,		\/\/\/< classe : LinearAction$/;"	e	enum:objectsControler::__anon1
+objectsControler::LinearAction	linearAction.hpp	/^	class LinearAction : public EnemyShipAction$/;"	c	namespace:objectsControler	inherits:EnemyShipAction
+objectsControler::LinearAction::LinearAction	linearAction.hpp	/^			LinearAction(EnemyShip*	enemyShip,$/;"	p	class:objectsControler::LinearAction	access:public	signature:(EnemyShip* enemyShip, ESFunction function, int nbStep, float first, float last)
+objectsControler::LinearAction::_increment	linearAction.hpp	/^			float	_increment;$/;"	m	class:objectsControler::LinearAction	access:private
+objectsControler::LinearAction::_value	linearAction.hpp	/^			float	_value;$/;"	m	class:objectsControler::LinearAction	access:private
+objectsControler::LinearAction::advance	linearAction.hpp	/^			void advance();$/;"	p	class:objectsControler::LinearAction	access:public	signature:()
+objectsControler::LinearAction::~LinearAction	linearAction.hpp	/^			~LinearAction();$/;"	p	class:objectsControler::LinearAction	access:public	signature:()
+objectsControler::ListAction	listAction.hpp	/^	class ListAction : public EnemyShipAction$/;"	c	namespace:objectsControler	inherits:EnemyShipAction
+objectsControler::ListAction::ListAction	listAction.hpp	/^			ListAction();$/;"	p	class:objectsControler::ListAction	access:public	signature:()
+objectsControler::ListAction::_actions	listAction.hpp	/^			std::list<EnemyShipAction*>	_actions;$/;"	m	class:objectsControler::ListAction	access:private
+objectsControler::ListAction::addAction	listAction.hpp	/^			void addAction(EnemyShipAction* esa);$/;"	p	class:objectsControler::ListAction	access:public	signature:(EnemyShipAction* esa)
+objectsControler::ListAction::advance	listAction.hpp	/^			void advance();$/;"	p	class:objectsControler::ListAction	access:public	signature:()
+objectsControler::ListAction::getStaticMetaObject	moc_listAction.cpp	/^const QMetaObject &objectsControler::ListAction::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:objectsControler::ListAction	signature:()
+objectsControler::ListAction::handleEnd	listAction.hpp	/^			void handleEnd();$/;"	p	class:objectsControler::ListAction	access:public	signature:()
+objectsControler::ListAction::metaObject	moc_listAction.cpp	/^const QMetaObject *objectsControler::ListAction::metaObject() const$/;"	f	class:objectsControler::ListAction	signature:() const
+objectsControler::ListAction::qt_metacall	moc_listAction.cpp	/^int objectsControler::ListAction::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:objectsControler::ListAction	signature:(QMetaObject::Call _c, int _id, void **_a)
+objectsControler::ListAction::qt_metacast	moc_listAction.cpp	/^void *objectsControler::ListAction::qt_metacast(const char *_clname)$/;"	f	class:objectsControler::ListAction	signature:(const char *_clname)
+objectsControler::ListAction::staticMetaObject	moc_listAction.cpp	/^const QMetaObject objectsControler::ListAction::staticMetaObject = {$/;"	m	class:objectsControler::ListAction	file:
+onActionFinished	enemyShipAction.hpp	/^			void onActionFinished();$/;"	p	class:objectsControler::EnemyShipAction	access:public	signature:()
+onActionFinished	moc_enemyShipAction.cpp	/^void objectsControler::EnemyShipAction::onActionFinished()$/;"	f	class:objectsControler::EnemyShipAction	signature:()
+paint	allyShip.cpp	/^void AllyShip::paint(QPainter *painter,$/;"	f	class:AllyShip	signature:(QPainter *painter, const QStyleOptionGraphicsItem*, QWidget*)
+paint	allyShip.hpp	/^			void paint(QPainter *painter,$/;"	p	class:sceneElements::AllyShip	access:public	signature:(QPainter *painter, const QStyleOptionGraphicsItem*, QWidget*)
+paint	ball.cpp	/^void Ball::paint(QPainter	*painter,$/;"	f	class:Ball	signature:(QPainter *painter, const QStyleOptionGraphicsItem*, QWidget*)
+paint	ball.hpp	/^			void paint(QPainter	*painter,$/;"	p	class:sceneElements::Ball	access:public	signature:(QPainter *painter, const QStyleOptionGraphicsItem*, QWidget*)
+paint	enemyShip.cpp	/^void EnemyShip::paint(QPainter *painter,$/;"	f	class:EnemyShip	signature:(QPainter *painter, const QStyleOptionGraphicsItem*, QWidget*)
+paint	enemyShip.hpp	/^			virtual void paint(QPainter							*painter,$/;"	p	class:sceneElements::EnemyShip	access:public	signature:(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+playButton	ui_interface.h	/^    QPushButton *playButton;$/;"	m	class:Ui_MainWindow	access:public
+qt_meta_data_objectsControler__EnemyShipAction	moc_enemyShipAction.cpp	/^static const uint qt_meta_data_objectsControler__EnemyShipAction[] = {$/;"	v	file:
+qt_meta_data_objectsControler__ListAction	moc_listAction.cpp	/^static const uint qt_meta_data_objectsControler__ListAction[] = {$/;"	v	file:
+qt_meta_data_sceneElements__AllyShip	moc_allyShip.cpp	/^static const uint qt_meta_data_sceneElements__AllyShip[] = {$/;"	v	file:
+qt_meta_data_sceneElements__Simulateur	moc_simulateur.cpp	/^static const uint qt_meta_data_sceneElements__Simulateur[] = {$/;"	v	file:
+qt_meta_stringdata_objectsControler__EnemyShipAction	moc_enemyShipAction.cpp	/^static const char qt_meta_stringdata_objectsControler__EnemyShipAction[] = {$/;"	v	file:
+qt_meta_stringdata_objectsControler__ListAction	moc_listAction.cpp	/^static const char qt_meta_stringdata_objectsControler__ListAction[] = {$/;"	v	file:
+qt_meta_stringdata_sceneElements__AllyShip	moc_allyShip.cpp	/^static const char qt_meta_stringdata_sceneElements__AllyShip[] = {$/;"	v	file:
+qt_meta_stringdata_sceneElements__Simulateur	moc_simulateur.cpp	/^static const char qt_meta_stringdata_sceneElements__Simulateur[] = {$/;"	v	file:
+qt_metacall	moc_allyShip.cpp	/^int sceneElements::AllyShip::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:sceneElements::AllyShip	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacall	moc_enemyShipAction.cpp	/^int objectsControler::EnemyShipAction::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:objectsControler::EnemyShipAction	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacall	moc_listAction.cpp	/^int objectsControler::ListAction::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:objectsControler::ListAction	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacall	moc_simulateur.cpp	/^int sceneElements::Simulateur::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:sceneElements::Simulateur	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacast	moc_allyShip.cpp	/^void *sceneElements::AllyShip::qt_metacast(const char *_clname)$/;"	f	class:sceneElements::AllyShip	signature:(const char *_clname)
+qt_metacast	moc_enemyShipAction.cpp	/^void *objectsControler::EnemyShipAction::qt_metacast(const char *_clname)$/;"	f	class:objectsControler::EnemyShipAction	signature:(const char *_clname)
+qt_metacast	moc_listAction.cpp	/^void *objectsControler::ListAction::qt_metacast(const char *_clname)$/;"	f	class:objectsControler::ListAction	signature:(const char *_clname)
+qt_metacast	moc_simulateur.cpp	/^void *sceneElements::Simulateur::qt_metacast(const char *_clname)$/;"	f	class:sceneElements::Simulateur	signature:(const char *_clname)
+quitButton	ui_interface.h	/^    QPushButton *quitButton;$/;"	m	class:Ui_MainWindow	access:public
+remove	allyShip.cpp	/^void AllyShip::remove()$/;"	f	class:AllyShip	signature:()
+remove	allyShip.hpp	/^			virtual void remove();$/;"	p	class:sceneElements::AllyShip	access:public	signature:()
+remove	ball.cpp	/^void Ball::remove()$/;"	f	class:Ball	signature:()
+remove	ball.hpp	/^			virtual void remove();$/;"	p	class:sceneElements::Ball	access:public	signature:()
+remove	enemyShip.cpp	/^void EnemyShip::remove()$/;"	f	class:EnemyShip	signature:()
+remove	enemyShip.hpp	/^			virtual void remove();$/;"	p	class:sceneElements::EnemyShip	access:public	signature:()
+remove	object.hpp	/^			virtual void remove() = 0;$/;"	p	class:sceneElements::Object	access:public	signature:()
+remove	pool.hpp	/^		void remove(Obj *object);$/;"	p	class:Pool	access:public	signature:(Obj *object)
+retranslateUi	ui_interface.h	/^    void retranslateUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow	access:public	signature:(QMainWindow *MainWindow)
+scene	simulateur.cpp	/^QGraphicsScene *Simulateur::scene()$/;"	f	class:Simulateur	signature:()
+scene	simulateur.hpp	/^			QGraphicsScene *scene();$/;"	p	class:sceneElements::Simulateur	access:public	signature:()
+sceneElements	allyShip.hpp	/^namespace sceneElements$/;"	n
+sceneElements	ball.hpp	/^namespace sceneElements$/;"	n
+sceneElements	enemyShip.hpp	/^namespace sceneElements$/;"	n
+sceneElements	enemyShipAction.hpp	/^namespace sceneElements$/;"	n
+sceneElements	object.hpp	/^namespace sceneElements$/;"	n
+sceneElements	objectFactory.hpp	/^namespace sceneElements {$/;"	n
+sceneElements	ship.hpp	/^namespace sceneElements$/;"	n
+sceneElements	simulateur.hpp	/^namespace sceneElements$/;"	n
+sceneElements::AllyShip	allyShip.hpp	/^	class AllyShip : public QObject, public Ship$/;"	c	namespace:sceneElements	inherits:QObject,Ship
+sceneElements::AllyShip::AllyShip	allyShip.hpp	/^			AllyShip(float x, float y, int energyMax);$/;"	p	class:sceneElements::AllyShip	access:public	signature:(float x, float y, int energyMax)
+sceneElements::AllyShip::_attack	allyShip.hpp	/^			bool	_attack;$/;"	m	class:sceneElements::AllyShip	access:protected
+sceneElements::AllyShip::_dxN	allyShip.hpp	/^			signed char _dxN;$/;"	m	class:sceneElements::AllyShip	access:protected
+sceneElements::AllyShip::_dxP	allyShip.hpp	/^			signed char _dxP;$/;"	m	class:sceneElements::AllyShip	access:protected
+sceneElements::AllyShip::_dyN	allyShip.hpp	/^			signed char _dyN;$/;"	m	class:sceneElements::AllyShip	access:protected
+sceneElements::AllyShip::_dyP	allyShip.hpp	/^			signed char _dyP;$/;"	m	class:sceneElements::AllyShip	access:protected
+sceneElements::AllyShip::_move	allyShip.hpp	/^			bool	_move;$/;"	m	class:sceneElements::AllyShip	access:protected
+sceneElements::AllyShip::attack	allyShip.hpp	/^			virtual void attack();$/;"	p	class:sceneElements::AllyShip	access:protected	signature:()
+sceneElements::AllyShip::boundingRect	allyShip.hpp	/^			QRectF boundingRect() const;$/;"	p	class:sceneElements::AllyShip	access:public	signature:() const
+sceneElements::AllyShip::calcDir	allyShip.hpp	/^			void calcDir();$/;"	p	class:sceneElements::AllyShip	access:private	signature:()
+sceneElements::AllyShip::destroyed	allyShip.hpp	/^			void destroyed();$/;"	p	class:sceneElements::AllyShip	access:private	signature:()
+sceneElements::AllyShip::destroyed	moc_allyShip.cpp	/^void sceneElements::AllyShip::destroyed()$/;"	f	class:sceneElements::AllyShip	signature:()
+sceneElements::AllyShip::energyChanged	allyShip.hpp	/^			void energyChanged(int);$/;"	p	class:sceneElements::AllyShip	access:private	signature:(int)
+sceneElements::AllyShip::energyChanged	moc_allyShip.cpp	/^void sceneElements::AllyShip::energyChanged(int _t1)$/;"	f	class:sceneElements::AllyShip	signature:(int _t1)
+sceneElements::AllyShip::getStaticMetaObject	moc_allyShip.cpp	/^const QMetaObject &sceneElements::AllyShip::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:sceneElements::AllyShip	signature:()
+sceneElements::AllyShip::keyPressEvent	allyShip.hpp	/^			void keyPressEvent(QKeyEvent *event);$/;"	p	class:sceneElements::AllyShip	access:protected	signature:(QKeyEvent *event)
+sceneElements::AllyShip::keyReleaseEvent	allyShip.hpp	/^			void keyReleaseEvent(QKeyEvent *event);$/;"	p	class:sceneElements::AllyShip	access:protected	signature:(QKeyEvent *event)
+sceneElements::AllyShip::metaObject	moc_allyShip.cpp	/^const QMetaObject *sceneElements::AllyShip::metaObject() const$/;"	f	class:sceneElements::AllyShip	signature:() const
+sceneElements::AllyShip::move	allyShip.hpp	/^			virtual void move();$/;"	p	class:sceneElements::AllyShip	access:protected	signature:()
+sceneElements::AllyShip::paint	allyShip.hpp	/^			void paint(QPainter *painter,$/;"	p	class:sceneElements::AllyShip	access:public	signature:(QPainter *painter, const QStyleOptionGraphicsItem*, QWidget*)
+sceneElements::AllyShip::qt_metacall	moc_allyShip.cpp	/^int sceneElements::AllyShip::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:sceneElements::AllyShip	signature:(QMetaObject::Call _c, int _id, void **_a)
+sceneElements::AllyShip::qt_metacast	moc_allyShip.cpp	/^void *sceneElements::AllyShip::qt_metacast(const char *_clname)$/;"	f	class:sceneElements::AllyShip	signature:(const char *_clname)
+sceneElements::AllyShip::remove	allyShip.hpp	/^			virtual void remove();$/;"	p	class:sceneElements::AllyShip	access:public	signature:()
+sceneElements::AllyShip::shape	allyShip.hpp	/^			QPainterPath shape() const;	$/;"	p	class:sceneElements::AllyShip	access:public	signature:() const
+sceneElements::AllyShip::staticMetaObject	moc_allyShip.cpp	/^const QMetaObject sceneElements::AllyShip::staticMetaObject = {$/;"	m	class:sceneElements::AllyShip	file:
+sceneElements::AllyShip::takeDamage	allyShip.hpp	/^			virtual void takeDamage(int damage);$/;"	p	class:sceneElements::AllyShip	access:public	signature:(int damage)
+sceneElements::Ball	ball.hpp	/^	class Ball : public Object$/;"	c	namespace:sceneElements	inherits:Object
+sceneElements::Ball::Ball	ball.hpp	/^			Ball();$/;"	p	class:sceneElements::Ball	access:public	signature:()
+sceneElements::Ball::Ball	ball.hpp	/^			Ball(float				x,$/;"	p	class:sceneElements::Ball	access:public	signature:(float x, float y, float speed, float direction, unsigned int damage)
+sceneElements::Ball::_dx	ball.hpp	/^			float	_dx;$/;"	m	class:sceneElements::Ball	access:protected
+sceneElements::Ball::_dy	ball.hpp	/^			float	_dy;$/;"	m	class:sceneElements::Ball	access:protected
+sceneElements::Ball::_remove	ball.hpp	/^			bool	_remove;$/;"	m	class:sceneElements::Ball	access:protected
+sceneElements::Ball::advance	ball.hpp	/^			virtual void advance(int);$/;"	p	class:sceneElements::Ball	access:public	signature:(int)
+sceneElements::Ball::boundingRect	ball.hpp	/^			QRectF boundingRect() const;$/;"	p	class:sceneElements::Ball	access:public	signature:() const
+sceneElements::Ball::init	ball.hpp	/^			void init(float				x, $/;"	p	class:sceneElements::Ball	access:public	signature:(float x, float y, float speed, float direction, CollisionGroup collision, unsigned int damage)
+sceneElements::Ball::paint	ball.hpp	/^			void paint(QPainter	*painter,$/;"	p	class:sceneElements::Ball	access:public	signature:(QPainter *painter, const QStyleOptionGraphicsItem*, QWidget*)
+sceneElements::Ball::remove	ball.hpp	/^			virtual void remove();$/;"	p	class:sceneElements::Ball	access:public	signature:()
+sceneElements::Ball::takeDamage	ball.hpp	/^			virtual void takeDamage(int damage);$/;"	p	class:sceneElements::Ball	access:public	signature:(int damage)
+sceneElements::EnemyShip	enemyShip.hpp	/^	class EnemyShip : public Ship$/;"	c	namespace:sceneElements	inherits:Ship
+sceneElements::EnemyShip::EnemyShip	enemyShip.hpp	/^			EnemyShip();$/;"	p	class:sceneElements::EnemyShip	access:public	signature:()
+sceneElements::EnemyShip::EnemyShip	enemyShip.hpp	/^			EnemyShip(float x, float y, int energyMax);$/;"	p	class:sceneElements::EnemyShip	access:public	signature:(float x, float y, int energyMax)
+sceneElements::EnemyShip::_attackFreqControler	enemyShip.hpp	/^			EnemyShipAction*	_attackFreqControler;$/;"	m	class:sceneElements::EnemyShip	access:protected
+sceneElements::EnemyShip::_directionControler	enemyShip.hpp	/^			EnemyShipAction*	_directionControler;$/;"	m	class:sceneElements::EnemyShip	access:protected
+sceneElements::EnemyShip::_speedControler	enemyShip.hpp	/^			EnemyShipAction*	_speedControler;$/;"	m	class:sceneElements::EnemyShip	access:protected
+sceneElements::EnemyShip::attack	enemyShip.hpp	/^			virtual void attack();$/;"	p	class:sceneElements::EnemyShip	access:protected	signature:()
+sceneElements::EnemyShip::boundingRect	enemyShip.hpp	/^			virtual QRectF boundingRect() const;$/;"	p	class:sceneElements::EnemyShip	access:public	signature:() const
+sceneElements::EnemyShip::init	enemyShip.hpp	/^			void init(float x, float y, int energyMax);$/;"	p	class:sceneElements::EnemyShip	access:public	signature:(float x, float y, int energyMax)
+sceneElements::EnemyShip::move	enemyShip.hpp	/^			virtual void move();$/;"	p	class:sceneElements::EnemyShip	access:protected	signature:()
+sceneElements::EnemyShip::paint	enemyShip.hpp	/^			virtual void paint(QPainter							*painter,$/;"	p	class:sceneElements::EnemyShip	access:public	signature:(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+sceneElements::EnemyShip::remove	enemyShip.hpp	/^			virtual void remove();$/;"	p	class:sceneElements::EnemyShip	access:public	signature:()
+sceneElements::EnemyShip::setControlers	enemyShip.hpp	/^			void setControlers(EnemyShipAction* speed,$/;"	p	class:sceneElements::EnemyShip	access:public	signature:(EnemyShipAction* speed, EnemyShipAction* direction, EnemyShipAction* attackFreq)
+sceneElements::Object	object.hpp	/^	class Object : public QGraphicsItem$/;"	c	namespace:sceneElements	inherits:QGraphicsItem
+sceneElements::Object::ALL	object.hpp	/^				ALL			= 0xff	\/\/			1 1 1 1  1 1 1 1$/;"	e	enum:sceneElements::Object::CollisionGroup
+sceneElements::Object::ALLY	object.hpp	/^				ALLY		= 0x03,	\/\/			0 0 0 0  0 0 1 1$/;"	e	enum:sceneElements::Object::CollisionGroup
+sceneElements::Object::ALLYBALL	object.hpp	/^				ALLYBALL	= 0x04,	\/\/			0 0 0 0  0 1 0 0$/;"	e	enum:sceneElements::Object::CollisionGroup
+sceneElements::Object::CollisionGroup	object.hpp	/^			enum CollisionGroup$/;"	g	class:sceneElements::Object	access:public
+sceneElements::Object::ENEMY	object.hpp	/^				ENEMY		= 0x05,	\/\/			0 0 0 0  0 1 0 1$/;"	e	enum:sceneElements::Object::CollisionGroup
+sceneElements::Object::ENEMYBALL	object.hpp	/^				ENEMYBALL	= 0x02,	\/\/			0 0 0 0  0 0 1 0$/;"	e	enum:sceneElements::Object::CollisionGroup
+sceneElements::Object::NEUTRAL	object.hpp	/^				NEUTRAL		= 0x07,	\/\/			0 0 0 0  0 1 1 1$/;"	e	enum:sceneElements::Object::CollisionGroup
+sceneElements::Object::Object	object.hpp	/^			Object(float			x,$/;"	p	class:sceneElements::Object	access:protected	signature:(float x, float y, int damage = 0, CollisionGroup collision = SCENERY)
+sceneElements::Object::SCENERY	object.hpp	/^				SCENERY		= 0x00,	\/\/			0 0 0 0  0 0 0 0$/;"	e	enum:sceneElements::Object::CollisionGroup
+sceneElements::Object::_collision	object.hpp	/^			CollisionGroup	_collision;$/;"	m	class:sceneElements::Object	access:protected
+sceneElements::Object::_damage	object.hpp	/^			int				_damage;$/;"	m	class:sceneElements::Object	access:protected
+sceneElements::Object::_direction	object.hpp	/^			float			_direction;$/;"	m	class:sceneElements::Object	access:protected
+sceneElements::Object::_speed	object.hpp	/^			float			_speed;$/;"	m	class:sceneElements::Object	access:protected
+sceneElements::Object::advance	object.hpp	/^			virtual void advance(int) = 0;$/;"	p	class:sceneElements::Object	access:protected	signature:(int)
+sceneElements::Object::collision	object.hpp	/^			CollisionGroup collision() const;$/;"	p	class:sceneElements::Object	access:public	signature:() const
+sceneElements::Object::collisionManager	object.hpp	/^			void collisionManager();$/;"	p	class:sceneElements::Object	access:protected	signature:()
+sceneElements::Object::damage	object.hpp	/^			unsigned int damage() const;$/;"	p	class:sceneElements::Object	access:public	signature:() const
+sceneElements::Object::remove	object.hpp	/^			virtual void remove() = 0;$/;"	p	class:sceneElements::Object	access:public	signature:()
+sceneElements::Object::setDirection	object.hpp	/^			void setDirection(float direction);$/;"	p	class:sceneElements::Object	access:public	signature:(float direction)
+sceneElements::Object::setSpeed	object.hpp	/^			void setSpeed(float speed);$/;"	p	class:sceneElements::Object	access:public	signature:(float speed)
+sceneElements::Object::takeDamage	object.hpp	/^			virtual void takeDamage(int damage);$/;"	p	class:sceneElements::Object	access:public	signature:(int damage)
+sceneElements::Ship	ship.hpp	/^	class Ship : public Object$/;"	c	namespace:sceneElements	inherits:Object
+sceneElements::Ship::Ship	ship.hpp	/^			Ship(float			x, $/;"	p	class:sceneElements::Ship	access:protected	signature:(float x, float y, int energyMax, CollisionGroup colGrp)
+sceneElements::Ship::_attackFreq	ship.hpp	/^			unsigned int	_attackFreq;$/;"	m	class:sceneElements::Ship	access:protected
+sceneElements::Ship::_attackStep	ship.hpp	/^			unsigned int	_attackStep;$/;"	m	class:sceneElements::Ship	access:protected
+sceneElements::Ship::_energy	ship.hpp	/^			int				_energy;$/;"	m	class:sceneElements::Ship	access:protected
+sceneElements::Ship::_energyMax	ship.hpp	/^			int				_energyMax;$/;"	m	class:sceneElements::Ship	access:protected
+sceneElements::Ship::advance	ship.hpp	/^			virtual void advance(int);$/;"	p	class:sceneElements::Ship	access:public	signature:(int)
+sceneElements::Ship::attack	ship.hpp	/^			virtual void attack() = 0;$/;"	p	class:sceneElements::Ship	access:protected	signature:()
+sceneElements::Ship::energy	ship.hpp	/^			unsigned int energy() const;$/;"	p	class:sceneElements::Ship	access:public	signature:() const
+sceneElements::Ship::init	ship.hpp	/^			void init(float x, float y, int energyMax);$/;"	p	class:sceneElements::Ship	access:protected	signature:(float x, float y, int energyMax)
+sceneElements::Ship::move	ship.hpp	/^			virtual void move() = 0;$/;"	p	class:sceneElements::Ship	access:protected	signature:()
+sceneElements::Ship::setAttackFreq	ship.hpp	/^			void setAttackFreq(float value);$/;"	p	class:sceneElements::Ship	access:public	signature:(float value)
+sceneElements::Ship::takeDamage	ship.hpp	/^			virtual void takeDamage(int damage);$/;"	p	class:sceneElements::Ship	access:public	signature:(int damage)
+sceneElements::Simulateur	simulateur.hpp	/^	class Simulateur : public QObject, public Singleton<Simulateur>$/;"	c	namespace:sceneElements	inherits:QObject,Singleton
+sceneElements::Simulateur::Simulateur	simulateur.hpp	/^			Simulateur();$/;"	p	class:sceneElements::Simulateur	access:private	signature:()
+sceneElements::Simulateur::_app	simulateur.hpp	/^			QApplication*				_app;$/;"	m	class:sceneElements::Simulateur	access:private
+sceneElements::Simulateur::_grid	simulateur.hpp	/^			QGridLayout*				_grid;$/;"	m	class:sceneElements::Simulateur	access:private
+sceneElements::Simulateur::_map	simulateur.hpp	/^			Map*						_map;$/;"	m	class:sceneElements::Simulateur	access:private
+sceneElements::Simulateur::_pBar	simulateur.hpp	/^			QProgressBar*				_pBar;$/;"	m	class:sceneElements::Simulateur	access:private
+sceneElements::Simulateur::_scene	simulateur.hpp	/^			QGraphicsScene*				_scene;$/;"	m	class:sceneElements::Simulateur	access:private
+sceneElements::Simulateur::_text	simulateur.hpp	/^			QGraphicsSimpleTextItem*	_text;$/;"	m	class:sceneElements::Simulateur	access:private
+sceneElements::Simulateur::_timer	simulateur.hpp	/^			QTimer*						_timer;$/;"	m	class:sceneElements::Simulateur	access:private
+sceneElements::Simulateur::_view	simulateur.hpp	/^			QGraphicsView*				_view;$/;"	m	class:sceneElements::Simulateur	access:private
+sceneElements::Simulateur::_widget	simulateur.hpp	/^			QWidget*					_widget;$/;"	m	class:sceneElements::Simulateur	access:private
+sceneElements::Simulateur::gameOver	simulateur.hpp	/^			void gameOver();$/;"	p	class:sceneElements::Simulateur	access:public	signature:()
+sceneElements::Simulateur::getStaticMetaObject	moc_simulateur.cpp	/^const QMetaObject &sceneElements::Simulateur::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:sceneElements::Simulateur	signature:()
+sceneElements::Simulateur::init	simulateur.hpp	/^			void init(int argc, char **argv);$/;"	p	class:sceneElements::Simulateur	access:public	signature:(int argc, char **argv)
+sceneElements::Simulateur::levelCompleted	simulateur.hpp	/^			void levelCompleted();$/;"	p	class:sceneElements::Simulateur	access:public	signature:()
+sceneElements::Simulateur::lifeBar	simulateur.hpp	/^			QProgressBar *lifeBar();$/;"	p	class:sceneElements::Simulateur	access:public	signature:()
+sceneElements::Simulateur::metaObject	moc_simulateur.cpp	/^const QMetaObject *sceneElements::Simulateur::metaObject() const$/;"	f	class:sceneElements::Simulateur	signature:() const
+sceneElements::Simulateur::qt_metacall	moc_simulateur.cpp	/^int sceneElements::Simulateur::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:sceneElements::Simulateur	signature:(QMetaObject::Call _c, int _id, void **_a)
+sceneElements::Simulateur::qt_metacast	moc_simulateur.cpp	/^void *sceneElements::Simulateur::qt_metacast(const char *_clname)$/;"	f	class:sceneElements::Simulateur	signature:(const char *_clname)
+sceneElements::Simulateur::scene	simulateur.hpp	/^			QGraphicsScene *scene();$/;"	p	class:sceneElements::Simulateur	access:public	signature:()
+sceneElements::Simulateur::start	simulateur.hpp	/^			int start();$/;"	p	class:sceneElements::Simulateur	access:public	signature:()
+sceneElements::Simulateur::staticMetaObject	moc_simulateur.cpp	/^const QMetaObject sceneElements::Simulateur::staticMetaObject = {$/;"	m	class:sceneElements::Simulateur	file:
+sceneElements::Simulateur::step	simulateur.hpp	/^			void step();$/;"	p	class:sceneElements::Simulateur	access:public	signature:()
+sceneElements::Simulateur::stop	simulateur.hpp	/^			void stop();$/;"	p	class:sceneElements::Simulateur	access:public	signature:()
+sceneElements::Simulateur::~Simulateur	simulateur.hpp	/^			~Simulateur();$/;"	p	class:sceneElements::Simulateur	access:public	signature:()
+setAttackFreq	ship.cpp	/^void Ship::setAttackFreq(float value)$/;"	f	class:Ship	signature:(float value)
+setAttackFreq	ship.hpp	/^			void setAttackFreq(float value);$/;"	p	class:sceneElements::Ship	access:public	signature:(float value)
+setControlers	enemyShip.cpp	/^void EnemyShip::setControlers($/;"	f	class:EnemyShip	signature:( EnemyShipAction* speed, EnemyShipAction* direction, EnemyShipAction* attackFreq)
+setControlers	enemyShip.hpp	/^			void setControlers(EnemyShipAction* speed,$/;"	p	class:sceneElements::EnemyShip	access:public	signature:(EnemyShipAction* speed, EnemyShipAction* direction, EnemyShipAction* attackFreq)
+setDirection	object.cpp	/^void Object::setDirection(float direction)$/;"	f	class:Object	signature:(float direction)
+setDirection	object.hpp	/^			void setDirection(float direction);$/;"	p	class:sceneElements::Object	access:public	signature:(float direction)
+setSpeed	object.cpp	/^void Object::setSpeed(float speed)$/;"	f	class:Object	signature:(float speed)
+setSpeed	object.hpp	/^			void setSpeed(float speed);$/;"	p	class:sceneElements::Object	access:public	signature:(float speed)
+setupUi	ui_interface.h	/^    void setupUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow	access:public	signature:(QMainWindow *MainWindow)
+shape	allyShip.cpp	/^QPainterPath AllyShip::shape() const$/;"	f	class:AllyShip	signature:() const
+shape	allyShip.hpp	/^			QPainterPath shape() const;	$/;"	p	class:sceneElements::AllyShip	access:public	signature:() const
+start	simulateur.cpp	/^int Simulateur::start()$/;"	f	class:Simulateur	signature:()
+start	simulateur.hpp	/^			int start();$/;"	p	class:sceneElements::Simulateur	access:public	signature:()
+staticMetaObject	moc_allyShip.cpp	/^const QMetaObject sceneElements::AllyShip::staticMetaObject = {$/;"	m	class:sceneElements::AllyShip	file:
+staticMetaObject	moc_enemyShipAction.cpp	/^const QMetaObject objectsControler::EnemyShipAction::staticMetaObject = {$/;"	m	class:objectsControler::EnemyShipAction	file:
+staticMetaObject	moc_listAction.cpp	/^const QMetaObject objectsControler::ListAction::staticMetaObject = {$/;"	m	class:objectsControler::ListAction	file:
+staticMetaObject	moc_simulateur.cpp	/^const QMetaObject sceneElements::Simulateur::staticMetaObject = {$/;"	m	class:sceneElements::Simulateur	file:
+statusbar	ui_interface.h	/^    QStatusBar *statusbar;$/;"	m	class:Ui_MainWindow	access:public
+step	map.hpp	/^	unsigned int		step;$/;"	m	struct:Map::Level	access:public
+step	simulateur.cpp	/^void Simulateur::step()$/;"	f	class:Simulateur	signature:()
+step	simulateur.hpp	/^			void step();$/;"	p	class:sceneElements::Simulateur	access:public	signature:()
+stop	simulateur.cpp	/^void Simulateur::stop()$/;"	f	class:Simulateur	signature:()
+stop	simulateur.hpp	/^			void stop();$/;"	p	class:sceneElements::Simulateur	access:public	signature:()
+takeDamage	allyShip.cpp	/^void AllyShip::takeDamage(int damage)$/;"	f	class:AllyShip	signature:(int damage)
+takeDamage	allyShip.hpp	/^			virtual void takeDamage(int damage);$/;"	p	class:sceneElements::AllyShip	access:public	signature:(int damage)
+takeDamage	ball.cpp	/^void Ball::takeDamage(int)$/;"	f	class:Ball	signature:(int)
+takeDamage	ball.hpp	/^			virtual void takeDamage(int damage);$/;"	p	class:sceneElements::Ball	access:public	signature:(int damage)
+takeDamage	object.cpp	/^void Object::takeDamage(int)$/;"	f	class:Object	signature:(int)
+takeDamage	object.hpp	/^			virtual void takeDamage(int damage);$/;"	p	class:sceneElements::Object	access:public	signature:(int damage)
+takeDamage	ship.cpp	/^void Ship::takeDamage(int damage)$/;"	f	class:Ship	signature:(int damage)
+takeDamage	ship.hpp	/^			virtual void takeDamage(int damage);$/;"	p	class:sceneElements::Ship	access:public	signature:(int damage)
+verticalLayout	ui_interface.h	/^    QVBoxLayout *verticalLayout;$/;"	m	class:Ui_MainWindow	access:public
+verticalSpacer	ui_interface.h	/^    QSpacerItem *verticalSpacer;$/;"	m	class:Ui_MainWindow	access:public
+x	map.hpp	/^	float			x;$/;"	m	struct:Map::Coord	access:public
+y	map.hpp	/^	float			y;$/;"	m	struct:Map::Coord	access:public
+~ConstantAction	constantAction.cpp	/^ConstantAction::~ConstantAction()$/;"	f	class:ConstantAction	signature:()
+~ConstantAction	constantAction.hpp	/^			~ConstantAction();$/;"	p	class:objectsControler::ConstantAction	access:public	signature:()
+~LinearAction	linearAction.cpp	/^LinearAction::~LinearAction()$/;"	f	class:LinearAction	signature:()
+~LinearAction	linearAction.hpp	/^			~LinearAction();$/;"	p	class:objectsControler::LinearAction	access:public	signature:()
+~Pool	pool.hpp	/^		~Pool();$/;"	p	class:Pool	access:public	signature:()
+~Simulateur	simulateur.cpp	/^Simulateur::~Simulateur()$/;"	f	class:Simulateur	signature:()
+~Simulateur	simulateur.hpp	/^			~Simulateur();$/;"	p	class:sceneElements::Simulateur	access:public	signature:()
